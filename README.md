@@ -11,7 +11,20 @@ $ find .
 $ sbt package
 ...
 [info] Packaging {..}/{..}/target/scala-2.12/SODM_2.12-1.0.jar
-$ $ YOUR_SPARK_HOME/bin/spark-submit \
-  --class "SimpleApp" \
+$ YOUR_SPARK_HOME/bin/spark-submit \
+  --class "ODMTest" \
   target/scala-2.12/simple-project_2.12-1.0.jar
 ```
+
+## Authors and Copyright
+
+SODM is developed in National Engineering Research Center for Big Data Technology and System, Cluster and Grid Computing Lab, Services Computing Technology and System Lab, School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan, China by Yilin Wang (yilin_wang@hust.edu.cn), Nan Cao(nan_cao@hust.edu.cn), Teng Zhang(tengzhang@hust.edu.cn), Xuanhua Shi (xhshi@hust.edu.cn), Hai Jin (hjin@hust.edu.cn).
+
+Copyright (C) 2021, [STCS & CGCL](http://grid.hust.edu.cn/) and [Huazhong University of Science and Technology](https://www.hust.edu.cn/).
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+```
+  http://www.apache.org/licenses/LICENSE-2.0
+```
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
